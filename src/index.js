@@ -32,3 +32,5 @@ function Character(name, type) {
   }
   
   let sword = new NewChar('Базеилус', 'Swordsman');
+
+  export {sword}
