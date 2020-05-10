@@ -1,0 +1,38 @@
+{
+  "name": "hw_6.1",
+  "version": "1.0.0",
+  "description": "One more pack",
+  "main": "index.js",
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "live-server": "^1.2.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "html-webpack-plugin": "^4.2.0",
+    "mini-css-extract-plugin": "^0.9.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint .",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vasya24/AJS__HW_6.1.git"
+  },
+  "keywords": [
+    "Smth"
+  ],
+  "author": "Vasya24",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vasya24/AJS__HW_6.1/issues"
+  },
+  "homepage": "https://github.com/Vasya24/AJS__HW_6.1#readme"
+}
