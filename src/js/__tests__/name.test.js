@@ -3,6 +3,6 @@ import { Character } from '../../index'
 
 let vasya = new Character('Базелиус', 'Daemon');
 
-test('Basic test', () => {
-expect(vasya.attack).toBeLessThan(vasya.defence)
+test('Name test', () => {
+expect(vasya.name.length).toBeGreaterThan(1)
 })
